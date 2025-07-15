@@ -1,0 +1,86 @@
+@media (max-width:991px) {
+    .nav-links {
+        display: none;
+    }
+
+    .buy-now {
+        display: none;
+    }
+
+    .nav-links-btn a i {
+        display: block;
+    }
+}
+
+@media(max-width:768px) {
+    .lonerate-detail {
+        margin-bottom: 20px;
+    }
+
+    .lonerate-rate {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .global {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .newsletter {
+        text-align: start;
+    }
+
+    .newsletter input {
+        padding: 15px;
+        max-width: 350px;
+        border: none;
+        border-radius: 4px 0 0 4px;
+        margin-right: -5px;
+    }
+}
+
+@media(max-width:576px){
+    .newsletter {
+    text-align: left;
+    display: block;
+    align-items: center;
+    gap: 20px;
+}
+    .newsletter input {
+        max-width: 200px;
+    }
+     .global {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .help-card a{
+        padding: 0;
+    }
+
+    .findloan-section{
+        padding: 80px 10px;
+    }
+
+    .process-section{
+        padding: 80px 10px;
+    }
+
+    .choose-section {
+         padding: 80px 10px;
+    }
+
+    .testimonial-section{
+        padding: 80px 10px;
+    }
+
+    .letest-section{
+        padding: 80px 10px;
+    }
+
+    .help-section{
+        padding: 80px 10px;
+    }
+
+    .footer{
+        padding: 40px 30px
+    }
+}
